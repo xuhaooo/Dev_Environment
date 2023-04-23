@@ -1,0 +1,150 @@
+{
+  "workbench.colorTheme": "SynthWave '84",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.list.horizontalScrolling": true,
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.tree.indent": 4,
+  "workbench.startupEditor": "none",
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f"
+  },
+
+  // editor
+  "editor.fontSize": 20,
+  "editor.fontWeight": "normal",
+  "editor.fontFamily": "'Fira Code', CascadiaMono, Operato, OperatorMonoLig-Book, 'JetBrainsMono-Light', 'FiraCode-Light', 'Hack-Regular', 'JetBrains Mono', 'FiraCode-Retina', 'Operator Mono Lig', Menlo,Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "files.autoSave": "afterDelay",
+  "editor.linkedEditing": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.lineNumbers": "relative",
+  "editor.wordWrap": "off",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
+  "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.suggest.showStatusBar": true,
+  "editor.occurrencesHighlight": true,
+  "editor.guides.bracketPairs": false,
+  "editor.inlayHints.enabled": false,
+
+  // others
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "diffEditor.wordWrap": "off",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "breadcrumbs.symbolPath": "off",
+  "breadcrumbs.enabled": true,
+  "debug.console.fontSize": 16,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "cSpell.userWords": [
+    "easymotion",
+    "Pinia"
+  ],
+
+  // live server
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+
+  // vim
+  "vim.easymotion": true,
+  "vim.sneak": true,
+  "vim.leader": "<Space>",
+  "vim.useSystemClipboard": true,
+  "vim.handleKeys": {
+    "<C-c>": false,
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["L"],
+      "after": ["g", "_"]
+    },
+    {
+      "before": ["H"],
+      "after": ["^"]
+    },
+    {
+      "before": ["J"],
+      "after": ["5", "j"]
+    },
+    {
+      "before": ["K"],
+      "after": ["5", "k"]
+    },
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["L"],
+      "after": ["g", "_"]
+    },
+    {
+      "before": ["H"],
+      "after": ["^"]
+    },
+    {
+      "before": ["J"],
+      "after": ["5", "j"]
+    },
+    {
+      "before": ["K"],
+      "after": ["5", "k"]
+    },
+  ],
+  "vim.operatorPendingModeKeyBindings": [
+    {
+      "before": ["L"],
+      "after": ["g", "_"]
+    },
+    {
+      "before": ["H"],
+      "after": ["^"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["f"],
+      "after": ["s"]
+    },
+    {
+      "before": ["F"],
+      "after": ["S"]
+    },
+    {
+      "before": ["s"],
+      "after": ["c", "l"]
+    },
+    {
+      "before": ["S"],
+      "after": ["^", "C"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["f"],
+      "after": ["s"]
+    },
+  ],
+  "vim.operatorPendingModeKeyBindingsNonRecursive": [
+    {
+      "before": ["f"],
+      "after": ["z"]
+    },
+    {
+      "before": ["F"],
+      "after": ["Z"]
+    },
+  ],
+
+	// highlight
+  "highlight-icemode.borderColor": "#fff",
+  "highlight-icemode.borderRadius": "2px",
+  "highlight-icemode.backgroundColor": "",
+}
