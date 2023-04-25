@@ -78,7 +78,7 @@
     {
       "before": ["K"],
       "after": ["5", "k"]
-    },
+    }
   ],
   "vim.visualModeKeyBindings": [
     {
@@ -96,7 +96,7 @@
     {
       "before": ["K"],
       "after": ["5", "k"]
-    },
+    }
   ],
   "vim.operatorPendingModeKeyBindings": [
     {
@@ -130,7 +130,7 @@
     {
       "before": ["f"],
       "after": ["s"]
-    },
+    }
   ],
   "vim.operatorPendingModeKeyBindingsNonRecursive": [
     {
@@ -140,11 +140,12 @@
     {
       "before": ["F"],
       "after": ["Z"]
-    },
+    }
   ],
 
 	// highlight
   "highlight-icemode.borderColor": "#fff",
+  "highlight-icemode.borderWidth": "2px",
   "highlight-icemode.borderRadius": "2px",
-  "highlight-icemode.backgroundColor": "",
+  "highlight-icemode.backgroundColor": "#3a4a5a"
 }
